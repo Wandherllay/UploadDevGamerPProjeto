@@ -4,17 +4,20 @@ body{
     margin: 0;
 }
 
+/*Inicio, Cadastrar, Sobre nós*/
 .hero{
     background-image: url(../imagens/principal.jpg);
     height: 500px;
     background-position: right center;
     background-size: cover;
     border-top: 1px solid transparent;
+    width: 100%;
 }
 
 .hero nav ul{
     text-align: right;
     margin: 20px 50px 0 0;
+    border-radius: 30%;
 }
 
 .hero nav li{
@@ -22,6 +25,7 @@ body{
     list-style: none;
     margin-left: 10px;
     border-bottom: 2px solid rgb(167,105,44);
+    border-radius: 30%;
 }
 
 .hero nav a{
@@ -33,13 +37,15 @@ body{
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2px;
+    border-radius: 30%;
 }
 
 .hero nav a:hover{
     background: rgba(167,105,44,0.5);
-    transition-duration: 1s;
+    transition: all 1s linear;
 }
 
+/*DevGamers*/
 .hero-content{
     text-align: center;
     color: white;
@@ -58,6 +64,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
     text-decoration: none;
+    border-radius: 30%;
 }
 
 .hero-content a{
@@ -69,7 +76,8 @@ body{
     background: rgba(167, 105, 44, 0.5);
     display: block;
     padding: 10px;
-    transition-duration: 1s;
+    border-radius: 30%;
+    transition: all 1s linear;
 }
 
 main{
@@ -82,6 +90,7 @@ main{
     padding: 10px;
     margin-top: 15px;
     overflow: auto;
+    width: 100%;
 }
 
 .card{
@@ -126,10 +135,12 @@ main{
     height: 100%;
 }
 
+/*Noticias*/
 .content-header{
     border-bottom: solid 2px #ccc;
     padding: 10px;
     background: #eee;
+    width: 100%;
 }
 
 .content-header h2{
@@ -144,7 +155,13 @@ main{
     background-position: right center;
     background-size: cover;
     padding-left: 170px;
+    
 }
+
+.content-section img{
+    width: 100%;
+}
+
 article h2{
     text-align: center;
 }
